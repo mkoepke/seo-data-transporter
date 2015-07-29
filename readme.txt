@@ -96,6 +96,6 @@ It's relatively stable. This plugin has been in the repository since August, 201
 * Add hooks
 
 = 0.9.13 =
-* Renamed fork to Semiologic SEO plugin
+* Renamed fork to Semiologic SEO Data Transporter plugin
 * Added support for Semiologic SEO plugin
 * Updated WordPress SEO to Yoast SEO
