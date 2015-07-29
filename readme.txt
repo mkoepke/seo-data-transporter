@@ -1,12 +1,12 @@
-=== Plugin Name ===
+=== Semiologic SEO Data Transporter ===
 Contributors: nathanrice, studiopress
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5553118
-Tags: seo, genesis, genesiswp, thesis, thesiswp, headway, headwaywp, builder, frugal, hybrid, woothemes, all in one seo, headspace, platinum seo
+Tags: seo, genesis, genesiswp, thesis, thesiswp, headway, headwaywp, builder, frugal, hybrid, woothemes, all in one seo, headspace, platinum seo, semiologic
 Requires at least: 3.0
-Tested up to: 4.2.2
-Stable tag: 0.9.11
+Tested up to: 4.2.3
+Stable tag: 0.9.13
 
-This plugin allows you to transfer your inputs SEO data from one theme/plugin to another.
+This plugin allows you to transfer your SEO data from one theme/plugin to another.  It has been expanded to support the SEmiologic SEO plugin.
 
 == Description ==
 
@@ -35,6 +35,7 @@ Just choose what platform your moving away from, and what platform you want to m
 * Platinum SEO
 * SEO Ultimate
 * WordPress SEO
+* Semiologioc SEO
 
 == Installation ==
 
@@ -93,3 +94,8 @@ It's relatively stable. This plugin has been in the repository since August, 201
 = 0.9.10 =
 * Remove support for Thesis 2.x
 * Add hooks
+
+= 0.9.13 =
+* Renamed fork to Semiologic SEO plugin
+* Added support for Semiologic SEO plugin
+* Updated WordPress SEO to Yoast SEO

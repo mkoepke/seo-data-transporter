@@ -1,11 +1,10 @@
 <?php
 /*
-Plugin Name:	SEO Data Transporter
-Plugin URI:		http://www.studiopress.com/plugins/seo-data-transporter
+Plugin Name:	Semiologic SEO Data Transporter
+Plugin URI:		https://www.semiologic.com/resources/tools/semiologic-seo-data-transporter/
 Description:	Helps you transfer post/page specific SEO data, like custom doctitles, custom META descriptions and keywords, etc., from one platform (theme or plugin) to another.
-Version:		0.9.11
-Author:			Nathan Rice
-Author URI:		http://www.nathanrice.net/
+Version:		0.9.13 fork
+Author:			Nathan Rice & Mike Koepke
 */
 
 define('SEODT_PLUGIN_DIR', dirname(__FILE__));
@@ -131,6 +130,11 @@ function seodt_init() {
 			'META Description' => 'description',
 			'META Keywords' => 'keywords',
 		),
+		'Semiologic SEO' => array(
+			'Custom Doctitle' => '_title',
+			'META Description' => '_description',
+			'META Keywords' => '_keywords',
+		),
 		'SEO Title Tag' => array(
 			'Custom Doctitle' => 'title_tag',
 			'META Description' => 'meta_description',
@@ -142,7 +146,7 @@ function seodt_init() {
 			'noindex' => '_su_meta_robots_noindex',
 			'nofollow' => '_su_meta_robots_nofollow',
 		),
-		'WordPress SEO' => array(
+		'Yoast (formally WordPress) SEO' => array(
 			'Custom Doctitle' => '_yoast_wpseo_title',
 			'META Description' => '_yoast_wpseo_metadesc',
 			'META Keywords' => '_yoast_wpseo_metakeywords',
