@@ -40,9 +40,9 @@ Just choose what platform your moving away from, and what platform you want to m
 == Installation ==
 
 1. Upload the entire `seo-data-transporter` folder to the `/wp-content/plugins/` directory
-1. DO NOT change the name of the `seo-data-transporter` folder
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Navigate to the `Tools > SEO Data Transport` menu
+2. DO NOT change the name of the `seo-data-transporter` folder
+3. Activate the plugin through the 'Plugins' menu in WordPress
+4. Navigate to the `Tools > SEO Data Transport` menu
 
 == Frequently Asked Questions ==
 
